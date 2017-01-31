@@ -15,6 +15,7 @@ import ScrollableTabView, {
 import ScoresPage from './ScoresPage';
 import StandingsPage from './StandingsPage';
 import Date from '../Components/Date';
+import About from './About';
 
 class MainWindow extends React.Component {
   render() {
@@ -34,6 +35,8 @@ class MainWindow extends React.Component {
         >
           <ScoresPage tabLabel='Scores' />
           <StandingsPage tabLabel='Standings' />
+          <About tabLabel='Aobut'/>
+
         </ScrollableTabView>
       </View>
     )

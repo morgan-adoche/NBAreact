@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -26,6 +25,11 @@
 		61196C2B59BF7E459860D5F2 /* libPods-NBAreactTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2814DDF5B3F38D8F9B804E69 /* libPods-NBAreactTests.a */; };
 		832341BD1AAA6AB300B99B32 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		EA4A44A6320CC1C27EA81D9B /* libPods-NBAreact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C073ACA01FA165DA6AA53795 /* libPods-NBAreact.a */; };
+		9D981117F1004AE98266C785 /* libRNAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5109B205645A9BA3A866D /* libRNAnalytics.a */; };
+		6F6ACC0531D5414BB34834C1 /* MobileCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42A9E2B8EA3E45FE93E433B4 /* MobileCenter-Config.plist */; };
+		660C3160C6E7443FA3E3A12C /* libRNCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C1DC04E11F463AB3516568 /* libRNCrashes.a */; };
+		12B9BB02359D411ABDCEDA25 /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3813AA4A00415D8B0C4ABE /* libCodePush.a */; };
+		A930A7768836458482BF1897 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8955169FECB547D2926423C1 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -242,6 +246,14 @@
 		997063CFD0232BDFC7BBEF47 /* Pods-NBAreact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBAreact.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBAreact/Pods-NBAreact.release.xcconfig"; sourceTree = "<group>"; };
 		C073ACA01FA165DA6AA53795 /* libPods-NBAreact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBAreact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78BBCFC7DE3EB2CDD40F0C8 /* Pods-NBAreactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBAreactTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBAreactTests/Pods-NBAreactTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA012509F0704194A7A11697 /* RNAnalytics.xcodeproj */ = {isa = PBXFileReference; name = "RNAnalytics.xcodeproj"; path = "../node_modules/mobile-center-analytics/ios/RNAnalytics.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		2CB5109B205645A9BA3A866D /* libRNAnalytics.a */ = {isa = PBXFileReference; name = "libRNAnalytics.a"; path = "libRNAnalytics.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		42A9E2B8EA3E45FE93E433B4 /* MobileCenter-Config.plist */ = {isa = PBXFileReference; name = "MobileCenter-Config.plist"; path = "NBAreact/MobileCenter-Config.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		D93BBD6F564E40B083068D99 /* RNCrashes.xcodeproj */ = {isa = PBXFileReference; name = "RNCrashes.xcodeproj"; path = "../node_modules/mobile-center-crashes/ios/RNCrashes.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		51C1DC04E11F463AB3516568 /* libRNCrashes.a */ = {isa = PBXFileReference; name = "libRNCrashes.a"; path = "libRNCrashes.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		DB2A989EE5CA4153B7D2BF67 /* CodePush.xcodeproj */ = {isa = PBXFileReference; name = "CodePush.xcodeproj"; path = "../node_modules/react-native-code-push/ios/CodePush.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		8F3813AA4A00415D8B0C4ABE /* libCodePush.a */ = {isa = PBXFileReference; name = "libCodePush.a"; path = "libCodePush.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		8955169FECB547D2926423C1 /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +282,10 @@
 				00C302EA1ABCBA2D00DB3ED1 /* ReferenceProxy in Frameworks */,
 				139FDEF61B0652A700C62182 /* ReferenceProxy in Frameworks */,
 				EA4A44A6320CC1C27EA81D9B /* libPods-NBAreact.a in Frameworks */,
+				9D981117F1004AE98266C785 /* libRNAnalytics.a in Frameworks */,
+				660C3160C6E7443FA3E3A12C /* libRNCrashes.a in Frameworks */,
+				12B9BB02359D411ABDCEDA25 /* libCodePush.a in Frameworks */,
+				A930A7768836458482BF1897 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +412,7 @@
 			children = (
 				C073ACA01FA165DA6AA53795 /* libPods-NBAreact.a */,
 				2814DDF5B3F38D8F9B804E69 /* libPods-NBAreactTests.a */,
+				8955169FECB547D2926423C1 /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -423,6 +440,9 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				AA012509F0704194A7A11697 /* RNAnalytics.xcodeproj */,
+				D93BBD6F564E40B083068D99 /* RNCrashes.xcodeproj */,
+				DB2A989EE5CA4153B7D2BF67 /* CodePush.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -445,6 +465,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				FE9C9FA18DF7C56BE8B04A55 /* Pods */,
 				6F1C587273BAD9DBD0A1FB5B /* Frameworks */,
+				42A9E2B8EA3E45FE93E433B4 /* MobileCenter-Config.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -521,7 +542,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -791,6 +812,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				6F6ACC0531D5414BB34834C1 /* MobileCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -958,6 +980,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBAreact.app/NBAreact";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 			};
 			name = Debug;
 		};
@@ -972,6 +1000,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBAreact.app/NBAreact";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 			};
 			name = Release;
 		};

@@ -6,6 +6,8 @@ target 'NBAreact' do
   # use_frameworks!
 
   # Pods for NBAreact
+  pod 'RNMobileCenter', '~> 0.1.0'
+  pod 'MobileCenter', '~> 0.3.0'
 
   target 'NBAreactTests' do
     inherit! :search_paths

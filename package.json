@@ -7,9 +7,12 @@
     "test": "standard --verbose | snazzy"
   },
   "dependencies": {
+    "mobile-center-analytics": "^0.1.5",
+    "mobile-center-crashes": "^0.1.5",
     "moment-timezone": "^0.5.11",
     "react": "15.4.2",
     "react-native": "0.40.0",
+    "react-native-code-push": "^1.17.0-beta",
     "react-native-datepicker": "^1.2.2",
     "react-native-router-flux": "^3.30.0",
     "react-native-scrollable-tab-view": "^0.7.1"
