@@ -7,14 +7,15 @@
     "test": "standard --verbose | snazzy"
   },
   "dependencies": {
-    "moment-timezone": "0.5.4",
-    "react": "15.1.0",
-    "react-native": "0.27.2",
+    "moment-timezone": "^0.5.11",
+    "react": "15.4.2",
+    "react-native": "0.40.0",
     "react-native-datepicker": "^1.2.2",
     "react-native-router-flux": "^3.30.0",
-    "react-native-scrollable-tab-view": "0.4.4"
+    "react-native-scrollable-tab-view": "^0.7.1"
   },
   "devDependencies": {
+    "code-push-cli": "^1.12.6-beta",
     "snazzy": "^4.0.0",
     "standard": "^7.1.2"
   }
